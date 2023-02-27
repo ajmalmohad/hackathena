@@ -5,15 +5,14 @@
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    border: 1px solid black;
 }
 
 .mover-1 {
     width: 10000px;
     position: absolute;
     overflow-x: hidden;
-    top: 10%;
-    bottom: 10%;
+    top: 15%;
+    bottom: 15%;
     left: 0;
     animation: moveSlideshow 5s linear infinite;
 }
