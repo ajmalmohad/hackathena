@@ -1,0 +1,46 @@
+.bar {
+    background: black;
+    height:40px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.mover-1 {
+    width: 10000px;
+    position: absolute;
+    overflow-x: hidden;
+    top: 10%;
+    bottom: 10%;
+    left: 0;
+    animation: moveSlideshow 5s linear infinite;
+}
+
+.mover-1 p{
+    color: white;
+    width: 188px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.mover-1 p::after{
+    color: white;
+    content: '•';
+    position: relative;
+    top:0;
+    left: 0;
+    height: 100%;
+    padding: 0 20px;
+}
+
+@keyframes moveSlideshow {
+    100% {
+        transform: translateX(-188px);
+    }
+}

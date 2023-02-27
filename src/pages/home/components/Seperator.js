@@ -6,6 +6,26 @@ function Seperator() {
     <div className='Seperator'>
       <div className='bar'>
 
+        <div class="mover-1">
+          <p>Hackathena 1.0</p>
+          <p>Hackathena 1.0</p>
+          <p>Hackathena 1.0</p>
+          <p>Hackathena 1.0</p>
+          <p>Hackathena 1.0</p>
+
+          <p>Hackathena 1.0</p>
+          <p>Hackathena 1.0</p>
+          <p>Hackathena 1.0</p>
+          <p>Hackathena 1.0</p>
+          <p>Hackathena 1.0</p>
+
+          <p>Hackathena 1.0</p>
+          <p>Hackathena 1.0</p>
+          <p>Hackathena 1.0</p>
+          <p>Hackathena 1.0</p>
+          <p>Hackathena 1.0</p>
+        </div>
+
       </div>
     </div>
   )
