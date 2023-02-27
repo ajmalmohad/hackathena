@@ -13,7 +13,9 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: 'Plus Jakarta Sans', sans-serif;
+  --red: #BA0403;
+  max-width: 2000px;
 }
