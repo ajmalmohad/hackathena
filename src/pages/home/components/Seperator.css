@@ -1,4 +1,4 @@
-.bar {
+.Seperator .bar {
     background: black;
     height:36px;
     max-width: 100%;
@@ -7,7 +7,7 @@
     overflow: hidden;
 }
 
-.mover-1 {
+.Seperator .mover-1 {
     width: 10000px;
     position: absolute;
     overflow-x: hidden;
@@ -17,7 +17,7 @@
     animation: moveSlideshow 6s linear infinite;
 }
 
-.mover-1 p{
+.Seperator .mover-1 p{
     color: white;
     width: 170px;
     display: inline-block;
@@ -28,7 +28,7 @@
     font-weight: 700;
 }
 
-.mover-1 p::after{
+.Seperator .mover-1 p::after{
     color: white;
     content: '•';
     position: relative;
