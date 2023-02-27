@@ -9,20 +9,30 @@ import Tracks from './components/Tracks'
 import Prizes from './components/Prizes'
 import Sponsors from './components/Sponsors'
 import Judges from './components/Judges'
+import Seperator from './components/Seperator'
 
 
 function Home() {
   return (
     <div className='Home'>
       <Hero />
+      <Seperator />
       <Welcome />
+      <Seperator />
       <Description />
+      <Seperator />
       <Information />
+      <Seperator />
       <Timeline />
+      <Seperator />
       <Tracks />
+      <Seperator />
       <Prizes />
+      <Seperator />
       <Sponsors />
+      <Seperator />
       <Judges />
+      <Seperator />
     </div>
   )
 }
