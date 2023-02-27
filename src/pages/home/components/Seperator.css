@@ -19,7 +19,7 @@
 
 .Seperator .mover-1 p{
     color: white;
-    width: 170px;
+    width: 220px;
     display: inline-block;
     vertical-align: middle;
     margin: 0;
@@ -35,11 +35,11 @@
     top:0;
     left: 0;
     height: 100%;
-    padding: 0 20px;
+    padding-left:50px;
 }
 
 @keyframes moveSlideshow {
     100% {
-        transform: translateX(-170px);
+        transform: translateX(-220px);
     }
 }
