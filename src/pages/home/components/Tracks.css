@@ -63,3 +63,17 @@
     padding: 3px 12.8125px 3px 13px;
     margin:1%;
 }
+
+@media screen and (max-width: 700px) {
+    .Tracks .trackmaindiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .Tracks .trackdivheading{
+        font-size: 15px;
+    }
+
+    .Tracks .trackdiv{
+        width:80%;
+    }
+}
