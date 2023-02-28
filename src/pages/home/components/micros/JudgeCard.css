@@ -1,0 +1,25 @@
+.JudgeCard{
+    width: 320px;
+    margin: 16px;
+    margin-top: 32px;
+    box-shadow: 3px 3px 0px black;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.JudgeCard .Image{
+    position: relative;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.JudgeCard .Info{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
