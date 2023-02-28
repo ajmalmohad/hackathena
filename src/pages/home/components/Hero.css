@@ -59,8 +59,11 @@
 }
 
 .Hero .buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
-    margin: 0px 40px;
+    margin: 0px 30px;
     padding: 12px 30px;
     border-radius: 10px;
     background: var(--secondaryred);
@@ -73,6 +76,15 @@
     font-size: 18px;
     line-height: 120%;
     color: white;
+}
+
+.Hero .buttons button.devfolio{
+    background: #3770ff;
+}
+
+.Hero .buttons button.devfolio img{
+    height: 24px;
+    margin-right: 10px;
 }
 
 @media screen and (max-width:1080px){
@@ -146,8 +158,8 @@
     }
 
     .Hero .buttons button {
-        width: 60vw;
-        min-width: 220px;
+        width: 70vw;
+        min-width: 250px;
         font-size: 16px;
     }
 }

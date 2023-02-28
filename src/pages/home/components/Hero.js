@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import Logo from './../../../assets/logo.png'
+import Devfolio from './../../../assets/devfolio.png'
 
 function Hero() {
   return (
@@ -14,7 +15,7 @@ function Hero() {
           </div>
         </div>
         <div className='buttons'>
-          <button> Apply with Devfolio</button>
+          <button className='devfolio'> <img src={Devfolio} alt="Devfolio"/> Apply with Devfolio</button>
           <button> Brochure</button>
           <button> Join Discord</button>
         </div>
