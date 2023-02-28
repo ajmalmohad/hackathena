@@ -1,0 +1,65 @@
+.Tracks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Trackheading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.Tracks .trackmaindiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Tracks .trackdiv {
+    width: 40%;
+    height: 50%;
+    margin: 2%;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    padding: 50px;
+}
+
+.Tracks .trackdivheading {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.Tracks .trackdivpara {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.Tracks .trackpopular {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.Tracks .trackdivbutton {
+    border: 1px solid #000000;
+    border-radius: 16px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 3px 12.8125px 3px 13px;
+    margin:1%;
+}
