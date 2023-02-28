@@ -1,0 +1,84 @@
+.Prizes {
+    color: white;
+    background-color: black;
+    background-image: url('./../../../assets/grid.png');
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.Prizes h1 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Prizes .allprizes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.Prizes .allprizes .prize {
+    padding: 50px 80px;
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--red);
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.Prizes .allprizes .prize h2 {
+    font-size: 30px;
+}
+
+.Prizes .allprizes .prize h4 {
+    font-size: 18px;
+}
+
+.Prizes .specialprizes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Prizes .specialprizes .prize {
+    padding: 50px 80px;
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--red);
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Prizes .specialprizes .prize h2 {
+    font-size: 30px;
+}
+
+.Prizes .specialprizes .prize h4 {
+    font-size: 18px;
+}
+
+
+@media screen and (max-width:600px){
+    .Prizes h1 {
+        font-size: 36px;
+    }
+
+    .Prizes .specialprizes .prize {
+        padding: 50px 50px;
+    }
+}
