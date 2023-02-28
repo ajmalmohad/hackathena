@@ -1,0 +1,62 @@
+.Information {
+    display: flex;
+    align-items: center;
+}
+
+.Information>* {
+    flex: 1;
+}
+
+.Information .image {
+    padding: 100px 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Information .image img {
+    height: auto;
+    width: 70%;
+    max-width: 360px;
+}
+
+.Information .rules {
+    padding: 100px 40px;
+    border-right: 3px solid gray;
+}
+
+.Information .rules h1 {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Information .rules p {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
+
+.Information .rules .allpoints {
+    margin-top: 30px;
+}
+
+@media screen and (max-width:800px) {
+    .Information .image {
+        display: none;
+    }
+
+    .Information .rules {
+        border:  none;
+    }
+}

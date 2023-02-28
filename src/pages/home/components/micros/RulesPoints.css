@@ -1,0 +1,26 @@
+.RulesPoints {
+    width: auto;
+    position: relative;
+    border: 2px solid black;
+    box-shadow: 4px 4px 0px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 30px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    max-width: 800px;
+}
+
+.RulesPoints .point {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
