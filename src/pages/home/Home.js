@@ -31,8 +31,8 @@ function Home() {
       <Seperator />
       <Sponsors />
       <Seperator />
-      <Judges />
-      <Seperator />
+      {/* <Judges />
+      <Seperator /> */}
     </div>
   )
 }
