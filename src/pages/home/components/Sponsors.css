@@ -1,0 +1,43 @@
+.Sponsors {
+    background-color: #BA0403;
+    width: 100%;
+    padding: 60px 0;
+}
+
+.Sponsors .sponsersheading {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 110%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.Sponsors .sponsertier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Sponsors .sponsertier h1{
+    text-align: center;
+}
+
+.Sponsors .diamondtier, .Sponsors .goldtier, .Sponsors .silvertier, .Sponsors .organisers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.Sponsors img{
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px black;
+    background: white;
+    padding: 10px;
+    margin: 20px;
+}
