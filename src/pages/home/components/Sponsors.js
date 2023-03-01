@@ -16,60 +16,40 @@ function Sponsors() {
   return (
     <div className='Sponsors'>
       <br />
-      <span className='sponsersheading'>Sponsers</span>
+      <h1 className='sponsersheading'>Sponsors</h1>
       <div className='sponsertier'>
+
         <div className='diamondtier'>
-          <br/>
-          <span clasName='tierheading1'>DIAMOND TIER</span>
-          <br/>
-          <button className='sponserbutton'>
-            <img src={maqlink} />
-          </button>
+          <h1 clasName='tierheading1'>DIAMOND TIER</h1>
+          <br />
+          <img src={maqlink} alt="Sponser" />
         </div>
+
         <div className='goldtier'>
-          <span clasName='tierheading2'>GOLD TIER</span>
-          <br/>
-          <button className='sponserbutton1'>
-            <img src={xtruder} />
-          </button>
-          <button className='sponserbutton1'>
-            <img src={nintriva} />
-          </button>
-          <button className='sponserbutton1'>
-            <img src={polygon} />
-          </button>
-          <button className='sponserbutton1'>
-            <img src={devfolio} />
-          </button>
+          <h1 clasName='tierheading2'>GOLD TIER</h1>
+          <br />
+          <img src={xtruder} alt="Sponser" />
+          <img src={nintriva} alt="Sponser" />
+          <img src={polygon} alt="Sponser" />
+          <img src={devfolio} alt="Sponser" />
         </div>
+
         <div className='silvertier'>
-          <span clasName='tierheading3'>SILVER TIER</span>
-          <br/>
-          <button className='sponserbutton'>
-            <img src={filecoin} />
-          </button>
-          <button className='sponserbutton'>
-            <img src={solana} />
-          </button>
-          <button className='sponserbutton'>
-            <img src={ozalya} />
-          </button>
-          <button className='sponserbutton'>
-            <img src={replit} />
-          </button>
+          <h1 clasName='tierheading3'>SILVER TIER</h1>
+          <br />
+            <img src={filecoin} alt="Sponser" />
+            <img src={solana} alt="Sponser" />
+            <img src={ozalya} alt="Sponser" />
+            <img src={replit} alt="Sponser" />
+        </div>
+
+        <div className='organisers'>
+          <h1 clasName='organised'>Organised by</h1>
+            <img src={cesa} alt="Sponser" />
+            <img src={iedc} alt="Sponser" />
+            <img src={csi} alt="Sponser" />
         </div>
       </div>
-      <div className='organisers'>
-          <span clasName='organised'>Organised by</span>
-          <button className='sponserbutton'>
-            <img src={cesa} />
-          </button> <button className='sponserbutton'>
-            <img src={iedc} />
-          </button>
-          <button className='sponserbutton'>
-            <img src={csi} />
-          </button>
-        </div>
     </div>
   )
 }
