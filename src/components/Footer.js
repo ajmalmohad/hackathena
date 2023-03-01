@@ -17,8 +17,8 @@ function Footer() {
         <img src={Insta} alt="Instagram" />
         </div>
         <div className='others'>
-              <a href='#'>Discord</a>
-              <a href='#'>University</a>
+              <a href="/#">Discord</a>
+              <a href="/#">University</a>
         </div>
     </div>
   )
