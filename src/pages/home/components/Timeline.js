@@ -1,9 +1,57 @@
 import React from 'react'
 import './Timeline.css'
+import { Chrono } from 'react-chrono'
 
 function Timeline() {
   return (
-    <div className='Timeline'>Timeline</div>
+    <div className='Timeline'>
+        <h3 >Timeline</h3>
+        <Chrono 
+          items={[
+          { 
+            title: "16/03/2023",
+            cardTitle: "Registration Deadline",
+            cardDetailedText: "HACKATENA registration open, students can showcase their skills and bring ideas to life."
+          },
+          {
+            title: "",
+            cardTitle: `Round 1 Submission`,
+            url:'',
+            cardDetailedText: `Round 1 is the first stage of competition where participants present their ideas in a ppt format to give an overview of the solution (Click here to download ppt).`
+          },
+          { 
+            title: "20/03/2023",
+            cardTitle: `Round 1 Results`,
+            cardDetailedText: `The results of the idea submission will be released, and the selected students will move forward to participate in an upcoming offline coding round, where they will have the opportunity to bring their ideas to life .`
+          },
+          {
+            title: "24/03/2023",
+            cardTitle: `Round 2 Hackathon Begins`,
+            cardDetailedText: `Hackathon starts, showcasing students coding skills and ideas.`
+          },
+          {
+            title: "26/03/2023",
+            cardTitle: `Final Showdown`,
+            cardDetailedText: `The final showdown round of the hackathon is here, where the top hacks will be presented and a winner will be chosen.`
+          }]}
+          mode="VERTICAL_ALTERNATING"
+          hideControls
+          cardHeight="10"
+          theme={{primary: "black", secondary: "white",card:"black",cardBgColor: 'black',cardForeColor: 'white',titleColor: 'white',titleColorActive: 'black'}}
+          flipLayout
+          classNames={{
+            card: 'cards',
+            cardSubTitle: 'my-card-subtitle',
+            cardText: 'my-card-text',
+            cardTitle: 'my-card-title',
+            title: 'my-title',
+          }}
+        />
+    </div>
+
+
+
+    
   )
 }
 
