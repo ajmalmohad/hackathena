@@ -1,0 +1,24 @@
+.Timeline {
+    background: var(--red);
+    color: white;
+    padding: 160px 13%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+h3{
+    padding:0;
+    margin:0%;
+    position: relative;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.cards{
+    background-color: black;
+    border-radius: 70%;
+}
+
