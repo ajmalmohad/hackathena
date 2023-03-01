@@ -1,0 +1,81 @@
+*{
+    overflow-x: hidden;
+}
+.Sponsors {
+    background-color: #BA0403;
+    width: 100%;
+}
+
+.Sponsors .sponsersheading {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #FFFFFF;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+.Sponsors .sponsertier {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.Sponsors .diamondtier .goldtier .silvertier{
+    display: flex;
+    flex-direction: column;
+}
+
+ .goldtier{
+    width:55%;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-gap: 10px;
+    padding:20px;
+}
+
+ .silvertier{
+    display: flex;
+    flex-direction: column;
+    
+}
+.silvertier button{
+    width:90%;
+    margin:10px;
+}
+.silvertier img{
+    width: 90%;
+    display: inline-block;
+    background-size: cover;
+  background-position: center;
+}
+span {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+}
+
+button {
+    width:min-content;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-shadow: 5px 5px 0px #000000;
+    border-radius: 12px;
+}
+.sponserbutton1{
+    padding: 20px;
+  text-align: center;
+}
+
+.tierheading {
+    width:100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
