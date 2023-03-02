@@ -15,7 +15,7 @@ function Hero() {
           </div>
         </div>
         <div className='buttons'>
-          <button className='devfolio'> <img src={Devfolio} alt="Devfolio" /> Apply with Devfolio</button>
+          <button className='devfolio'> <img src={Devfolio} alt="Devfolio" /> <a href='https://hackathena.devfolio.co/'>Apply with Devfolio</a></button>
           <button ><a href='https://drive.google.com/file/d/1EWB8HaqMsf7pwwxRKP0u-8XR2d7iXPps/view?usp=share_link'> Brochure </a></button>
           <button><a href='https://discord.gg/PWa22qKb6r'>Join Discord</a> </button>
         </div>

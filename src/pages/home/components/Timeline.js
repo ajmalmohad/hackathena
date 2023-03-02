@@ -9,7 +9,7 @@ function Timeline() {
         <Chrono 
           items={[
           { 
-            title: "16/03/2023",
+            title: "14/03/2023",
             cardTitle: "Registration Deadline",
             cardDetailedText: "HACKATENA registration open, students can showcase their skills and bring ideas to life."
           },
