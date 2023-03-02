@@ -14,9 +14,9 @@ function Timeline() {
             cardDetailedText: "HACKATENA registration open, students can showcase their skills and bring ideas to life."
           },
           {
-            title: "",
+            title: "18/03/2023",
             cardTitle: `Round 1 Submission`,
-            url:'',
+            url:'https://docs.google.com/presentation/d/17adQbnaHA5qKjAgMvXtVxYT4QfY4UFKS/edit?usp=sharing&ouid=110435758198613008152&rtpof=true&sd=true',
             cardDetailedText: `Round 1 is the first stage of competition where participants present their ideas in a ppt format to give an overview of the solution (Click here to download ppt).`
           },
           { 
