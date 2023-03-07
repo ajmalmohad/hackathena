@@ -17,7 +17,7 @@ function Timeline() {
             title: "18/03/2023",
             cardTitle: `Round 1 Submission`,
             url:'https://docs.google.com/presentation/d/17adQbnaHA5qKjAgMvXtVxYT4QfY4UFKS/edit?usp=sharing&ouid=110435758198613008152&rtpof=true&sd=true',
-            cardDetailedText: `Round 1 is the first stage of competition where participants present their ideas in a pdf format to give an overview of the solution(Whetherits in text or ppt submit it as pdf).`
+            cardDetailedText: `Round 1 is the first stage of competition where participants present their ideas in a pdf format to give an overview of the solution (Whether its in text or ppt submit it as pdf).`
           },
           { 
             title: "20/03/2023",
