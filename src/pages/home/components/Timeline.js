@@ -14,7 +14,7 @@ function Timeline() {
             cardDetailedText: "HACKATENA registration open, students can showcase their skills and bring ideas to life."
           },
           {
-            title: "18/03/2023",
+            title: "14/03/2023",
             cardTitle: `Round 1 Submission`,
             url:'https://docs.google.com/presentation/d/17adQbnaHA5qKjAgMvXtVxYT4QfY4UFKS/edit?usp=sharing&ouid=110435758198613008152&rtpof=true&sd=true',
             cardDetailedText: `Round 1 is the first stage of competition where participants present their ideas in a pdf format to give an overview of the solution (Whether its in text or ppt submit it as pdf).`
@@ -22,7 +22,7 @@ function Timeline() {
           { 
             title: "20/03/2023",
             cardTitle: `Round 1 Results`,
-            cardDetailedText: `The results of the idea submission will be released, and the selected students will move forward to participate in an upcoming offline coding round, where they will have the opportunity to bring their ideas to life .`
+            cardDetailedText: `The results of the idea submission will be released on or before 20/03/2023, and the selected students will move forward to participate in an upcoming offline coding round, where they will have the opportunity to bring their ideas to life .`
           },
           {
             title: "24/03/2023",
