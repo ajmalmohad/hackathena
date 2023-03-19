@@ -11,7 +11,7 @@ function Timeline() {
           { 
             title: "14/03/2023",
             cardTitle: "Registration Deadline",
-            cardDetailedText: "HACKATENA registration open, students can showcase their skills and bring ideas to life."
+            cardDetailedText: "HACKATHENA registration open, students can showcase their skills and bring ideas to life."
           },
           {
             title: "14/03/2023",
