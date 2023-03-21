@@ -46,11 +46,11 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 33px;
+    font-size: 37px;
     color: var(--secondaryred);
     margin-left: 8px;
     line-height: 100%;
-    background: black;
+    background: white;
 }
 
 .Hero .buttons {
