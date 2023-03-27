@@ -25,12 +25,12 @@ function Timeline() {
             cardDetailedText: `The results of the idea submission will be released on or before 20/03/2023, and the selected students will move forward to participate in an upcoming offline coding round, where they will have the opportunity to bring their ideas to life .`
           },
           {
-            title: "24/03/2023",
+            title: "28/04/2023",
             cardTitle: `Round 2 Hackathon Begins`,
             cardDetailedText: `Hackathon starts, showcasing students coding skills and ideas.`
           },
           {
-            title: "26/03/2023",
+            title: "30/04/2023",
             cardTitle: `Final Showdown`,
             cardDetailedText: `The final showdown round of the hackathon is here, where the top hacks will be presented and a winner will be chosen.`
           }]}
