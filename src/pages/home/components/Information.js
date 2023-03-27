@@ -8,7 +8,7 @@ function Information() {
     <div className='Information'>
       <div className='rules'>
         <h1>INFORMATION</h1>
-        <p>!!!HACKATHENA IS CURRENTLY POSTPONED DUE TO AN UNFORTUNATE EVENT IN OUR CAMPUS, Further Details and Revised Dates will be Published Soon!</p>
+        <p>HACKATHENA will be held from 28th April to 30th April</p>
         <div className='allpoints'>
           <RulesPoints className="spoint" color={"black"} Desc={"Each team should comprise of 3 to 4 members"} />
           <RulesPoints className="spoint" color={"#BA0403"} Desc={"Team members could be from different institutions as well"} />
