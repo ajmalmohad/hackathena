@@ -14,7 +14,7 @@ function Information() {
           <RulesPoints className="spoint" color={"#BA0403"} Desc={"Team members could be from different institutions as well"} />
           <RulesPoints className="spoint" color={"white"} textcol={"black"} Desc={"The registration is now closed"} />
           <RulesPoints className="spoint" color={"black"} Desc={"Shortlisted teams will be announced soon!"} />
-          <RulesPoints className="spoint" color={"#BA0403"} Desc={"Submissions will undergo screening and the best of 10 Team them will be selected and the team will get to participate in the in-person hackathon at Jyothi Engineering College."} />
+          <RulesPoints className="spoint" color={"#BA0403"} Desc={"Submissions will undergo screening and the best 10 Teams selected will get to participate in the in-person hackathon at Jyothi Engineering College."} />
         </div>
       </div>
       <div className='image'>
