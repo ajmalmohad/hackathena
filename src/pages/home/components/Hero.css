@@ -44,8 +44,8 @@
 
 .Hero .thelogo .content p {
     font-family: 'Poppins';
-    font-style: italic;
-    font-weight: bold;
+    font-style: normal;
+    font-weight: 400;
     font-size: 33px;
     color: var(--secondaryred);
     margin-left: 8px;
