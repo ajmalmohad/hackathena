@@ -11,7 +11,7 @@ function Hero() {
           <img src={Logo} alt="Logo" />
           <div className='content'>
             <h1>Hack<span>A</span>thena</h1>
-            <p>!!!DELAYED UNTIL FURTHER NOTICE!!!</p>
+            <p>!REVISED DATES ANNOUNCED!</p>
           </div>
         </div>
         <div className='buttons'>
