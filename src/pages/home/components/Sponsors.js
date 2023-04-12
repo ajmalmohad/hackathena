@@ -16,17 +16,17 @@ function Sponsors() {
   return (
     <div className='Sponsors'>
       <br />
-      <h1 className='sponsersheading'>Sponsors</h1>
+      <h1 className='sponsersheading'>SPONSORS</h1>
       <div className='sponsertier'>
 
         <div className='diamondtier'>
-          <h1 clasName='tierheading1'>DIAMOND TIER</h1>
+          <h1 clasName='tierheading1' color='#ffffff'>Diamond Tier</h1>
           <br />
           <img src={maqlink} alt="Sponser" />
         </div>
 
         <div className='goldtier'>
-          <h1 clasName='tierheading2'>GOLD TIER</h1>
+          <h1 clasName='tierheading2'>Gold Tier</h1>
           <br />
           <img src={xtruder} alt="Sponser" />
           <img src={nintriva} alt="Sponser" />
@@ -35,11 +35,11 @@ function Sponsors() {
         </div>
 
         <div className='silvertier'>
-          <h1 clasName='tierheading3'>SILVER TIER</h1>
+          <h1 clasName='tierheading3'>Silver Tier</h1>
           <br />
             <img src={filecoin} alt="Sponser" />
             <img src={solana} alt="Sponser" />
-            <img src={ozalya} alt="Sponser" />
+            <img src={ozalya} alt="Sponser" style={{ width: '200px' }}/>
             <img src={replit} alt="Sponser" />
         </div>
 

@@ -5,10 +5,10 @@
 }
 
 .Sponsors .sponsersheading {
-    font-family: 'Space Grotesk';
+    font-family: 'Poppins';
     font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
+    font-weight: 500;
+    font-size: 40px;
     line-height: 110%;
     color: #FFFFFF;
     text-align: center;
@@ -24,6 +24,7 @@
 
 .Sponsors .sponsertier h1{
     text-align: center;
+    color:#ffffff;
 }
 
 .Sponsors .diamondtier, .Sponsors .goldtier, .Sponsors .silvertier, .Sponsors .organisers{

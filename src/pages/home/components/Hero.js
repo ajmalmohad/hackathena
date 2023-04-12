@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import Logo from './../../../assets/logo.png'
-import Date from './../../../assets/date.png'
+// import Date from './../../../assets/date.png'
 import Devfolio from './../../../assets/devfolio.png'
 
 function Hero() {
@@ -12,7 +12,7 @@ function Hero() {
           <img src={Logo} alt="Logo" />
           <div className='content'>
             <h1>Hack<span>A</span>thena</h1>
-            <p>#HacktheDifference</p>
+            <p>Hack the Difference</p>
           </div>
         </div>
         <div className='date'>
@@ -21,9 +21,9 @@ function Hero() {
           <br/>
         </div>
         <div className='buttons'>
-          <button className='devfolio'> <img src={Devfolio} alt="Devfolio" /> <a href='https://hackathena.devfolio.co/' target="_blank">Applications Closed</a></button>
-          <button ><a href='https://drive.google.com/file/d/1s59byd010X3Ezi0EyxamJVRxbIiK3Yx5/view?usp=share_link' target="_blank"> Brochure </a></button>
-          <button><a href='https://discord.gg/PWa22qKb6r' target="_blank">Join Discord</a> </button>
+          <button className='devfolio'> <img src={Devfolio} alt="Devfolio" /> <a href='https://hackathena.devfolio.co/' target="_blank" rel="noopener noreferrer">Applications Closed</a></button>
+          <button ><a href='https://drive.google.com/file/d/1s59byd010X3Ezi0EyxamJVRxbIiK3Yx5/view?usp=share_link' target="_blank" rel="noopener noreferrer"> Brochure </a></button>
+          <button><a href='https://discord.gg/PWa22qKb6r' target="_blank" rel="noopener noreferrer">Join Discord</a> </button>
         </div>
       </main>
     </div>

@@ -2,7 +2,11 @@
     background-image: url('./../../../assets/background.png');
     background-size: cover;
 }
-
+@font-face {
+    font-family: 'TwCen';
+    src: url('./TwCen.otf') format('opentype');
+  }
+  
 .Hero main {
     padding: 160px 0;
     display: flex;
@@ -30,7 +34,8 @@
 }
 
 .Hero .thelogo .content h1 {
-    font-family: 'Plus Jakarta Sans';
+    font-family: 'TwCen';
+    /* font-family: 'Plus Jakarta Sans'; */
     font-style: normal;
     font-weight: 700;
     font-size: 100px;
@@ -47,6 +52,7 @@
 }
 .Hero .thelogo .content h1 span {
     color: var(--secondaryred);
+    font-family: 'TwCen';
 }
 
 .Hero .thelogo .content p {
