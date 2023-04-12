@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import Logo from './../../../assets/logo.png'
+import Date from './../../../assets/date.png'
 import Devfolio from './../../../assets/devfolio.png'
 
 function Hero() {
@@ -11,8 +12,13 @@ function Hero() {
           <img src={Logo} alt="Logo" />
           <div className='content'>
             <h1>Hack<span>A</span>thena</h1>
-            <p>!REVISED DATES ANNOUNCED!</p>
+            <p>#HacktheDifference</p>
           </div>
+        </div>
+        <div className='date'>
+        {/* <img src={Date} alt="Logo" /> */}
+        <p>APRIL 22 23 24</p>
+          <br/>
         </div>
         <div className='buttons'>
           <button className='devfolio'> <img src={Devfolio} alt="Devfolio" /> <a href='https://hackathena.devfolio.co/'>Applications Closed</a></button>

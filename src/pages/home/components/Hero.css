@@ -37,20 +37,67 @@
     line-height: 100%;
     color: white;
 }
-
+.Hero .thelogo img{
+    width:20%;
+    height:auto;
+}
+.Hero .thelogo {
+    display:flex;
+    justify-content: center;
+}
 .Hero .thelogo .content h1 span {
     color: var(--secondaryred);
 }
 
 .Hero .thelogo .content p {
+    font-size: 25px;
+    line-height: 27px;
+    letter-spacing: 5px;
     font-family: 'Poppins';
-    font-style: normal;
-    font-weight: bold;
+    font-style: medium;
+    /* font-weight: bold; */
     font-size: 33px;
     color: var(--secondaryred);
     margin-left: 8px;
     line-height: 100%;
-    background: white;
+    color:white;
+    /* background: white; */
+}
+.Hero .date p{
+    font-size: 25px;
+    line-height: 27px;
+    letter-spacing: 5px;
+    font-family: 'Poppins';
+    font-style: medium;
+    /* font-weight: bold; */
+    font-size: 33px;
+    color: var(--secondaryred);
+    margin-left: 8px;
+    line-height: 100%;
+    color:white;
+    /* background: white; */
+}
+.Hero .date img{
+    width:30%;
+    height:auto;
+}
+.Hero .date p{
+    color:white;
+    font-weight: 500;
+}
+.Hero .thelogo  p {
+    font-size: 25px;
+    line-height: 27px;
+    letter-spacing: 5px;
+    font-family: 'Poppins';
+    font-style: medium;
+    /* font-weight: bold; */
+    font-size: 33px;
+    color: var(--secondaryred);
+    margin-left: 8px;
+    line-height: 100%;
+    color:white;
+    /* background: white; */
 }
 
 .Hero .buttons {
@@ -92,7 +139,19 @@
     .Hero .thelogo img{
         height: 140px;
     }
-
+    .Hero .thelogo img{
+        width:60%;
+        height:auto;
+    }
+    .Hero .date p{
+        font-size: smaller;
+        color:white;
+        font-weight: 500;
+    }
+    .Hero .thelogo {
+        display:flex;
+        justify-content: center;
+    }
     .Hero .thelogo .content h1 {
         font-size: 80px;
     }

@@ -10,7 +10,7 @@ function Welcome() {
         our hackathon!
       </h1>
       <p className='content'>
-        Welcome to Hackathena, the flagship hackathon organized by the Computer Science
+        Welcome to Hackathena, a national level flagship hackathon organized by the Computer Science
         and Engineering department and coordinated by the Computer Engineering Students
         Association (CESA) of Jyothi Engineering College, Cheruthuruthy ; Co-Organised by the 
         Innovation and Entrepreneurship Development Cell (IEDC) and Computer Society of India
