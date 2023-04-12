@@ -7,14 +7,19 @@ function Information() {
   return (
     <div className='Information'>
       <div className='rules'>
-        <h1>INFORMATION</h1>
-        <p>Participants will be given 3 days to solve a real-world industry problem and create something wonderful out of it! Join us for the Adventure and Learnings!</p>
+        <h1>ANNOUNCEMENTS</h1>
+        <p>HACKATHENA will be held from 22nd to 24th April. Shortlisted teams for in-person hackathon are as follows</p>
         <div className='allpoints'>
-          <RulesPoints className="spoint" color={"black"} Desc={"Each team should comprise of 3 to 4 members"} />
-          <RulesPoints className="spoint" color={"#BA0403"} Desc={"Team members could be from different institutions as well"} />
-          <RulesPoints className="spoint" color={"white"} textcol={"black"} Desc={"The registration begins on 2nd March,2023 and ends on 14th March,2023"} />
-          <RulesPoints className="spoint" color={"black"} Desc={"After registration, you have to submit your idea as a pdf document via devfolio before 18th March 2023"} />
-          <RulesPoints className="spoint" color={"#BA0403"} Desc={"Submissions will undergo screening and the best of 10 Team them will be selected and the team will get to participate in the in-person hackathon at Jyothi Engineering College."} />
+          <RulesPoints className="spoint" color={"black"}  Desc={"RedFox"} />
+          <RulesPoints className="spoint" color={"black"} Desc={"Don't Care"} />
+          <RulesPoints className="spoint" color={"black"} Desc={"Levantate"} />
+          <RulesPoints className="spoint" color={"black"} Desc={"BugsBounty"} />
+          <RulesPoints className="spoint" color={"black"} Desc={"The Loop"} />
+          <RulesPoints className="spoint" color={"black"} Desc={"MAXQ 1017"} />
+          <RulesPoints className="spoint" color={"black"} Desc={"Debuggers"} />
+          <RulesPoints className="spoint" color={"black"} Desc={"Tri Tech"} />
+          <RulesPoints className="spoint" color={"black"} Desc={"Wiknic"} />
+          <RulesPoints className="spoint" color={"black"} Desc={"Hello World"} />
         </div>
       </div>
       <div className='image'>

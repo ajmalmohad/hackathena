@@ -2,7 +2,7 @@
     width: auto;
     position: relative;
     border: 2px solid black;
-    box-shadow: 4px 4px 0px black;
+    box-shadow: 4px 4px 0px grey;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -20,6 +20,7 @@
 }
 
 .RulesPoints .point {
+    display:none;
     position: absolute;
     top: -20px;
     left: -20px;
