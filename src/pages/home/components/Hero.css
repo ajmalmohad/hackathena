@@ -42,10 +42,10 @@
     line-height: 100%;
     color: white;
 }
-.Hero .thelogo img{
+/* .Hero .thelogo img{
     width:20%;
     height:auto;
-}
+} */
 .Hero .thelogo {
     display:flex;
     justify-content: center;
@@ -145,19 +145,16 @@
     .Hero .thelogo img{
         height: 140px;
     }
-    .Hero .thelogo img{
-        width:60%;
-        height:auto;
-    }
+
     .Hero .date p{
         font-size: smaller;
         color:white;
         font-weight: 500;
     }
-    .Hero .thelogo {
+    /* .Hero .thelogo {
         display:flex;
         justify-content: center;
-    }
+    } */
     .Hero .thelogo .content h1 {
         font-size: 80px;
     }
@@ -172,9 +169,6 @@
 }
 
 @media screen and (max-width:800px){
-    .Hero .thelogo img{
-        height: 120px;
-    }
 
     .Hero .thelogo .content h1 {
         font-size: 60px;
@@ -195,9 +189,6 @@
 }
 
 @media screen and (max-width:600px){
-    .Hero .thelogo img{
-        height: 100px;
-    }
 
     .Hero .thelogo .content h1 {
         font-size: 46px;
@@ -215,9 +206,6 @@
 }
 
 @media screen and (max-width:450px){
-    .Hero .thelogo img{
-        height: 80px;
-    }
 
     .Hero .thelogo .content h1 {
         font-size: 40px;
