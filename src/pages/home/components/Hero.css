@@ -191,7 +191,7 @@
 @media screen and (max-width:600px){
 
     .Hero .thelogo .content h1 {
-        font-size: 46px;
+        font-size: 60px;
     }
     
     .Hero .thelogo .content p {
@@ -208,7 +208,7 @@
 @media screen and (max-width:450px){
 
     .Hero .thelogo .content h1 {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .Hero .buttons button {
