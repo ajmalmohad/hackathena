@@ -45,11 +45,12 @@
 .Hero .thelogo .content p {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 500;
-    font-size: 26px;
-    color: white;
+    font-weight: bold;
+    font-size: 33px;
+    color: var(--secondaryred);
     margin-left: 8px;
     line-height: 100%;
+    background: white;
 }
 
 .Hero .buttons {
@@ -79,7 +80,7 @@
 }
 
 .Hero .buttons button.devfolio{
-    background: #3770ff;
+    background: #656e85;
 }
 
 .Hero .buttons button.devfolio img{
