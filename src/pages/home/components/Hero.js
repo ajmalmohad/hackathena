@@ -21,9 +21,9 @@ function Hero() {
           <br/>
         </div>
         <div className='buttons'>
-          <button className='devfolio'> <img src={Devfolio} alt="Devfolio" /> <a href='https://hackathena.devfolio.co/'>Applications Closed</a></button>
-          <button ><a href='https://drive.google.com/file/d/1EWB8HaqMsf7pwwxRKP0u-8XR2d7iXPps/view?usp=share_link'> Brochure </a></button>
-          <button><a href='https://discord.gg/PWa22qKb6r'>Join Discord</a> </button>
+          <button className='devfolio'> <img src={Devfolio} alt="Devfolio" /> <a href='https://hackathena.devfolio.co/' target="_blank">Applications Closed</a></button>
+          <button ><a href='https://drive.google.com/file/d/1s59byd010X3Ezi0EyxamJVRxbIiK3Yx5/view?usp=share_link' target="_blank"> Brochure </a></button>
+          <button><a href='https://discord.gg/PWa22qKb6r' target="_blank">Join Discord</a> </button>
         </div>
       </main>
     </div>
