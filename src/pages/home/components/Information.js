@@ -18,7 +18,7 @@ function Information() {
           <RulesPoints className="spoint" color={"black"} Desc={"MAXQ 1017"} />
           <RulesPoints className="spoint" color={"black"} Desc={"Debuggers"} />
           <RulesPoints className="spoint" color={"black"} Desc={"Tri Tech"} />
-          <RulesPoints className="spoint" color={"black"} Desc={"Wiknic"} />
+          <RulesPoints className="spoint" color={"black"} Desc={"Baymax"} />
           <RulesPoints className="spoint" color={"black"} Desc={"Hello World"} />
         </div>
       </div>
