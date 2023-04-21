@@ -8,7 +8,7 @@ import Timeline from './components/Timeline'
 import Tracks from './components/Tracks'
 import Prizes from './components/Prizes'
 import Sponsors from './components/Sponsors'
-// import Judges from './components/Judges'
+import Judges from './components/Judges'
 import Seperator from './components/Seperator'
 
 
