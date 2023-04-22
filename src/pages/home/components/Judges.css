@@ -1,4 +1,51 @@
-.Judges{
-    padding: 100px 0;
-}
-
+.judges-page {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .judges-page h2 {
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .judges-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .judge-card {
+    flex: 1 0 30%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); */
+    margin-left: 2%;
+  }
+  .judge-card img{
+    height:30vh;
+    width:auto;
+    border-radius: 10%;
+  }
+  .judge-card:hover{
+    color:#ba0403;
+  }
+  .judge-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .judge-title {
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .judge-bio {
+    font-size: 0.9rem;
+  }
+  
