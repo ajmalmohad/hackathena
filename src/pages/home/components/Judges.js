@@ -1,45 +1,10 @@
-import React, { useEffect, useLayoutEffect, useState , useRef} from 'react'
-import JudgCard from './JudgCard'
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { useSwiper } from 'swiper/react';
-
-
+import React from 'react'
+import bergin from './img/bergin.jpg'
+import jovis from './img/jovis.jpg'
+import sreekanth from './img/sreekanth.jpg'
+import './Judges.css'
 
 function Judges() {
-
-  const [index, setIndex] = useState(0);
-  const [length, setLength] = useState(4);
-
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
-
-  const swiperRef = useRef();
-
-  React.useEffect(() => {
-    
-
-    function handleResize() {
-      if(window.innerWidth < 720){
-        setLength(1)
-      }
-      else if(window.innerWidth < 1125){
-        setLength(2)
-      }
-      else if(window.innerWidth < 1490){
-        setLength(3)
-      }
-      else{
-        setLength(4)
-      }
-
-}
-
-  handleResize()
-
-    window.addEventListener('resize', handleResize)
-  },[])
-
 
   return (
     <div className="judges-page">
