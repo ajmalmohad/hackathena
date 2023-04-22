@@ -8,7 +8,7 @@ const CountdownTimer = () => {
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
 
-  const deadline = "24 april 2023 12:00:00";
+  const deadline = "24 april 2023 12:30:00";
 
   useEffect(() => {
     const timerId = setInterval(() => {
