@@ -10,12 +10,14 @@ import Prizes from './components/Prizes'
 import Sponsors from './components/Sponsors'
 // import Judges from './components/Judges'
 import Seperator from './components/Seperator'
-
+import Countdown from './components/Countdown'
 
 function Home() {
   return (
     <div className='Home'>
       <Hero />
+      <Seperator />
+      <Countdown />
       <Seperator />
       <Welcome />
       <Seperator />

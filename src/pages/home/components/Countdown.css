@@ -1,0 +1,30 @@
+.countdown-timer {
+    text-align: center;
+    height:90%;
+    width:auto;
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+.countdown-timer h2{
+    margin-top: -50px;
+}
+  .countdown-timer-display {
+    display: flex;
+    
+    justify-content: center;
+  }
+  
+  .countdown-timer-unit {
+    margin: 0 1rem;
+    font-size: 2rem;
+  }
+  
+  .countdown-timer-value {
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  
+  .countdown-timer-label {
+    font-size: 1.2rem;
+  }
+  
