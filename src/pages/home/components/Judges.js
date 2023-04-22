@@ -1,7 +1,8 @@
-import React, { useEffect, useLayoutEffect, useState , useRef} from 'react'
-import JudgCard from './JudgCard'
+import React, {  useState , useRef} from 'react';
+// import {  useEffect, useLayoutEffect} from 'react'
+import JudgCard from './JudgCard';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { useSwiper } from 'swiper/react';
+// import { useSwiper } from 'swiper/react';
 
 
 
@@ -17,7 +18,6 @@ function Judges() {
   const swiperRef = useRef();
 
   React.useEffect(() => {
-    
 
     function handleResize() {
       if(window.innerWidth < 720){
